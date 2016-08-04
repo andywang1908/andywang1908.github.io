@@ -19,3 +19,7 @@ In the words of Abraham Lincoln:
 
 http://andywang1908.github.io/2014/04/30/hank-quinlan-site-launched
 https://andywang1908.github.io/2014/04/30/hank-quinlan-site-launched
+
+<img src='/images/2016-08-04-CI.png'></img>
+
+try image
