@@ -17,3 +17,6 @@ git commit
 In the words of Abraham Lincoln:
 
 > Pardon my French
+
+http://andywang1908.github.io/2014/04/30/hank-quinlan-site-launched
+https://andywang1908.github.io/2014/04/30/hank-quinlan-site-launched
