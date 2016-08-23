@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ubantu Setting"
+title: "Ubantu Server"
 date: 2016-08-12
 ---
 
