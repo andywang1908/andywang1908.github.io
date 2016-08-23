@@ -27,9 +27,14 @@ bbbb
 
 cccc
 * Unordered list can use asterisks
-* Unordered list can use asterisks
+⋅⋅* Unordered list can use asterisks
 * Unordered list can use asterisks
 
+dddd
+Markdown | Less | Pretty
+--- | --- | ---
+*Still* | `renders` | **nicely**
+1 | 2 | 3
 
 In the words of Abraham Lincoln:
 
