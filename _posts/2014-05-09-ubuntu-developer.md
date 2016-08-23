@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ubantu Developer"
+title: "Ubantu Developer VM"
 date: 2016-08-15
 ---
 
@@ -37,9 +37,6 @@ compile lib:
 In the words of Joseph Campbell:
 
 > [A hero is someone who has given his or her life to something bigger than oneself.](http://www.brainyquote.com/quotes/topics/topic_inspirational2.html)
-
-http://andywang1908.github.io/2014/04/30/hank-quinlan-site-launched
-https://andywang1908.github.io/2014/04/30/hank-quinlan-site-launched
 
 <img src='/images/2016-08-04-CI.png'/>
 
