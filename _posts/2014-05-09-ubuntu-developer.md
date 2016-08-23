@@ -26,7 +26,7 @@ aaaa
 
 1. James Madison
 2. James Monroe
-3. John Quincy Adams
+5. John Quincy Adams
 
 1. Make my changes
   1. Fix bug
@@ -38,11 +38,10 @@ aaaa
   * Mention all the members of my team
     * Ask for feedback
 
-dddd
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
 
 In the words of Abraham Lincoln:
 
