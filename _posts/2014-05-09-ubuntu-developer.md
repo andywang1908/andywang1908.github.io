@@ -41,3 +41,6 @@ In the words of Joseph Campbell:
 <img src='/images/2016-08-04-CI.png'/>
 
 try image
+
+![Alt text](/images/2016-08-04-CI.png "Optional title")
+
