@@ -24,30 +24,19 @@ compile lib:
 
 - George Washington
 - John Adams
-- Thomas Jefferson
+- Thomas Jefferson	
 
-1. James Madison
-2. James Monroe
-5. John Quincy Adams
 
-1. Make my changes
-  1. Fix bug
-  2. Improve formatting
-    * Make the headings bigger
-2. Push my commits to GitHub
-3. Open a pull request
-  * Describe my changes
-  * Mention all the members of my team
-    * Ask for feedback
 
 | Command | Description |
 | --- | --- |
 | `git status` | List all *new or modified* files |
 | `git diff` | Show file differences that **haven't been** staged |
 
-In the words of Abraham Lincoln:
 
-> Pardon my French
+In the words of Joseph Campbell:
+
+> A hero is someone who has given his or her life to something bigger than oneself. 
 
 http://andywang1908.github.io/2014/04/30/hank-quinlan-site-launched
 https://andywang1908.github.io/2014/04/30/hank-quinlan-site-launched
