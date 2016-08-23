@@ -4,11 +4,12 @@ title: "Ubantu Developer"
 date: 2016-08-15
 ---
 
-Well. Finally got around to putting this old website together. Neat thing about it - powered by [Jekyll](http://jekyllrb.com) and I can use Markdown to author my posts. It actually is a lot easier than I thought it was going to be.
+Set up a ubuntu for development with windows.
 	
-Some basic Git commands are:
-1. Item0
-2. Item1
+some tips:
+
+1. Launch Terminal by pressing Ctrl+Alt+T
+2. sudo gedit /etc/profile
 3. Item2
 4. Item3
 
