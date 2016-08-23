@@ -42,5 +42,14 @@ In the words of Joseph Campbell:
 
 try image
 
-![Alt text](/images/2016-08-04-CI.png "Optional title")
+![Alt text](https://googledrive.com/host/0B-gKvP-SnWnKQ1d4cE9GSVQ5RWc/2016-08-04-CI.png "Optional title")
 
+https://drive.google.com/folderview?id=0B-gKvP-SnWnKQ1d4cE9GSVQ5RWc&usp=sharing
+https://drive.google.com/folderview?id=0B-gKvP-SnWnKQ1d4cE9GSVQ5RWc&usp=sharing
+
+https://drive.google.com/file/d/0B-gKvP-SnWnKQ1d4cE9GSVQ5RWc/edit?usp=sharing
+https://drive.google.com/uc?export=download&id=0B-gKvP-SnWnKQ1d4cE9GSVQ5RWc
+
+http://chronicle.com/blogs/profhacker/host-a-website-on-google-drive/46737
+
+https://googledrive.com/host/0B-gKvP-SnWnKQ1d4cE9GSVQ5RWc/2016-08-04-CI.png
