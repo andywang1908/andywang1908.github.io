@@ -36,7 +36,7 @@ compile lib:
 
 In the words of Joseph Campbell:
 
-> A hero is someone who has given his or her life to something bigger than oneself. 
+> [A hero is someone who has given his or her life to something bigger than oneself.](http://www.brainyquote.com/quotes/topics/topic_inspirational2.html)
 
 http://andywang1908.github.io/2014/04/30/hank-quinlan-site-launched
 https://andywang1908.github.io/2014/04/30/hank-quinlan-site-launched
