@@ -13,7 +13,9 @@ some tips:
 3. Item2
 4. Item3
 
-1. First ordered list item
+compile lib:
+
+1. [php](http://jekyllrb.com)
 2. Another item
 ⋅⋅* Unordered sub-list. 
 1. Actual numbers don't matter, just that it's a number
