@@ -10,15 +10,15 @@ some tips:
 
 1. Launch Terminal by pressing Ctrl+Alt+T
 2. sudo gedit /etc/profile
-3. Item2
-4. Item3
+4. Item2
+2. Item3
 
 compile lib:
 
 1. [php](http://jekyllrb.com)
 2. Another item
   * Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
+3. Actual numbers don't matter, just that it's a number
   1. Ordered sub-list
 4. And another item.
 
