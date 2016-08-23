@@ -8,9 +8,9 @@ Well. Finally got around to putting this old website together. Neat thing about 
 
 Some basic Git commands are:
 1. Item0
-1. Item1
-1. Item2
-1. Item3
+2. Item1
+3. Item2
+4. Item3
 
 
 In the words of Abraham Lincoln:
