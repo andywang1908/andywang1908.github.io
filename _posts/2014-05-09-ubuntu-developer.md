@@ -12,6 +12,13 @@ Some basic Git commands are:
 3. Item2
 4. Item3
 
+aaaa:
+1. First ordered list item
+2. Another item
+⋅⋅* Unordered sub-list. 
+1. Actual numbers don't matter, just that it's a number
+⋅⋅1. Ordered sub-list
+4. And another item.
 
 In the words of Abraham Lincoln:
 
