@@ -20,15 +20,23 @@ aaaa
 ⋅⋅1. Ordered sub-list
 4. And another item.
 
-bbbb
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+- George Washington
+- John Adams
+- Thomas Jefferson
 
-cccc
-* Unordered list can use asterisks
-⋅⋅* Unordered list can use asterisks
-* Unordered list can use asterisks
+1. James Madison
+2. James Monroe
+3. John Quincy Adams
+
+1. Make my changes
+  1. Fix bug
+  2. Improve formatting
+    * Make the headings bigger
+2. Push my commits to GitHub
+3. Open a pull request
+  * Describe my changes
+  * Mention all the members of my team
+    * Ask for feedback
 
 dddd
 Markdown | Less | Pretty
