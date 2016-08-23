@@ -15,12 +15,12 @@ some tips:
 
 compile lib:
 
-1. [php](http://jekyllrb.com)
-2. Another item
+- [php](http://jekyllrb.com)
+- Another item
   * Unordered sub-list. 
-3. Actual numbers don't matter, just that it's a number
+- Actual numbers don't matter, just that it's a number
   * Ordered sub-list
-4. And another item.
+- And another item.
 
 - George Washington
 - John Adams
