@@ -28,7 +28,6 @@ some different servcie:
 - Actual numbers don't matter, just that it's a number
   - Ordered sub-list
 
-- And another item
 - George Washington
 - John Adams
 - Thomas Jefferson	
