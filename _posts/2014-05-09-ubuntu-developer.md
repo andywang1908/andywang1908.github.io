@@ -27,7 +27,7 @@ some different servcie:
   - Unordered sub-list. 
 - Actual numbers don't matter, just that it's a number
   - Ordered sub-list
-- George Washington abc
+- George Washington abc.
 - John Adams
 - Thomas Jefferson	
 
