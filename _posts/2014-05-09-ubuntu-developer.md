@@ -34,15 +34,41 @@ Set up a ubuntu for development with windows.
 
 ## <a name="git"></a>git
 
+### config
 ```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
+git config --global user.name "Andy Wang"
+git config --global user.email "andywang1908@gmail.com"
+[ref](https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/)
+
+git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+git config --global http.proxy http://204.40.194.129:3128
+#git config --global --unset http.proxy
 ```
 
-
+### import reposity
 ```
-No language indicated, so no syntax highlighting. 
-But let's throw in a <b>tag</b>.
+cd ~/git
+git init andywang1908.github.io
+cd andywang1908.github.io
+git remote add origin https://github.com/andywang1908/andywang1908.github.io
+git pull origin master
+```
+### export reposity
+```
+git add *
+git commit -am "v1"
+git push origin master
+```
+### clean local change
+```
+git reset --hard HEAD
+git clean -f
+git pull
+```
+
+### bulid blog with markdown
+```
+[ref](http://jmcglone.com/guides/github-pages/)
 ```
 
 ## <a name="php"></a>php
