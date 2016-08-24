@@ -102,8 +102,17 @@ blockquote em{
   font-style: italic;
 }
 
+pre {
+  padding: 8px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
 code{
   background:#F8F8FF;
-  border:black dashed 1px;
+  /*border:black dashed 1px;*/
   padding: 0;
 }​
