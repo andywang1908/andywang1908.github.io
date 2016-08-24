@@ -69,13 +69,11 @@ git pull
 ```
 
 ### syntax
-[table](https://help.github.com/articles/organizing-information-with-tables/)
-[ref](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
+- [table](https://help.github.com/articles/organizing-information-with-tables/)
+- [ref](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code)
 
 ### bulid blog with markdown
-```
-```
-[ref](http://jmcglone.com/guides/github-pages/)
+- [ref](http://jmcglone.com/guides/github-pages/)
 
 
 ## <a name="php"></a>php
