@@ -102,4 +102,8 @@ blockquote em{
   font-style: italic;
 }
 
-code{background:#F8F8FF; border:black dashed 1px; padding:6px}​
+code{
+  background:#F8F8FF;
+  border:black dashed 1px;
+  padding: 0;
+}​
