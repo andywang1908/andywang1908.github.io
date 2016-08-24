@@ -26,9 +26,9 @@ some different servcie:
 - Another item
   - Unordered sub-list. 
 - Actual numbers don't matter, just that it's a number
-  * Ordered sub-list
+  - Ordered sub-list
+
 - And another item.
-  * Ordered sub-list
 
 - George Washington
 - John Adams
