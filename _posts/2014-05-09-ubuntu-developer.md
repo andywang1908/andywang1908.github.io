@@ -53,12 +53,14 @@ cd andywang1908.github.io
 git remote add origin https://github.com/andywang1908/andywang1908.github.io
 git pull origin master
 ```
+
 ### export reposity
 ```
 git add *
 git commit -am "v1"
 git push origin master
 ```
+
 ### clean local change
 ```
 git reset --hard HEAD
