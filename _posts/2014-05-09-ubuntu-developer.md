@@ -15,12 +15,12 @@ some tips:
 
 some different servcie:
 
-some develop tool:
+## some develop tool:
 
 1. [git](#git)
 2. sublime
 
-compile lib:
+## compile lib:
 
 - [php](#php)
 - Another item
@@ -34,9 +34,9 @@ compile lib:
 - Thomas Jefferson	
 
 
-# <a name="git"></a>git
+## <a name="git"></a>git
 
-# <a name="php"></a>php
+## <a name="php"></a>php
 
 
 
