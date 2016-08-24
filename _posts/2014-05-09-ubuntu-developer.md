@@ -34,12 +34,12 @@ Set up a ubuntu for development with windows.
 
 ## <a name="git"></a>git
 
-1. aaa
 ```
 No language indicated, so no syntax highlighting. 
 But let's throw in a <b>tag</b>.
 ```
-2. bbb
+
+
 ```
 No language indicated, so no syntax highlighting. 
 But let's throw in a <b>tag</b>.
