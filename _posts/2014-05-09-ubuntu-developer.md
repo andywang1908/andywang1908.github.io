@@ -10,12 +10,19 @@ some tips:
 
 1. Launch Terminal by pressing Ctrl+Alt+T
 2. sudo gedit /etc/profile
-4. Item2
+2. Item2
 2. Item3
+
+some different servcie:
+
+some develop tool:
+
+1. [git](#git)
+2. sublime
 
 compile lib:
 
-- [php](http://jekyllrb.com)
+- [php](#php)
 - Another item
   * Unordered sub-list. 
 - Actual numbers don't matter, just that it's a number
@@ -25,6 +32,11 @@ compile lib:
 - George Washington
 - John Adams
 - Thomas Jefferson	
+
+
+# <a name="git"></a>git
+
+# <a name="php"></a>php
 
 
 
