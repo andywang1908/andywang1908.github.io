@@ -6,14 +6,14 @@ date: 2016-08-15
 
 Set up a ubuntu for development with windows.
 	
-some tips:
+## some tips:
 
 1. Launch Terminal by pressing Ctrl+Alt+T
 2. sudo gedit /etc/profile
 2. Item2
 2. Item3
 
-some different servcie:
+## some different servcie:
 
 ## some develop tool:
 
@@ -33,6 +33,17 @@ some different servcie:
 
 
 ## <a name="git"></a>git
+
+1. aaa
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
+2. bbb
+```
+No language indicated, so no syntax highlighting. 
+But let's throw in a <b>tag</b>.
+```
 
 ## <a name="php"></a>php
 
