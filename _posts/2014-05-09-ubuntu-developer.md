@@ -24,10 +24,11 @@ some different servcie:
 
 - [php](#php)
 - Another item
-  * Unordered sub-list. 
+  - Unordered sub-list. 
 - Actual numbers don't matter, just that it's a number
   * Ordered sub-list
 - And another item.
+  * Ordered sub-list
 
 - George Washington
 - John Adams
