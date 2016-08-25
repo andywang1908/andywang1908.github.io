@@ -25,7 +25,6 @@ Set up a ubuntu for development with windows.
   - [php](#php)
   - markdown
 
-
 ## some develop tool:
 1. [git](#git)
 2. sublime
@@ -33,6 +32,7 @@ Set up a ubuntu for development with windows.
 2. big:::  RSA
 2. mysql workbench
 2. [activator](#activator)
+2. [proxy](#proxy)
 
 ## compile lib:
 - [nodejs](#nodejs1)
@@ -43,7 +43,6 @@ Set up a ubuntu for development with windows.
 - phython?
 - c#?
 - Thomas Jefferson	
-
 
 ## <a name="git"></a>git
 
@@ -145,6 +144,30 @@ npm config set strict-ssl =false
 npm config set https-proxy=https://204.40.194.129:3128
 npm config set proxy=http://204.40.194.129:3128
 #npm config set registry=http://registry.npmjs.org
+```
+
+## <a name="proxy"></a>proxy & ubuntu apt
+
+### ontario
+```
+DBEEDD eye protect color
+http://proxy2.gonet.gov.on.ca:9001/proxy.pac         to  firefox
+204.40.194.129:3128
+
+sudo gedit /etc/apt/apt.conf
+sudo vi /etc/apt/apt.conf
+Acquire::http::Proxy "http://204.40.194.129:3128";
+Acquire::http::Proxy "http://ebc\wangan1:Ontario2$@204.40.194.129:3128";
+#Acquire::https::Proxy "http://204.40.194.129:3128";
+sudo apt-get update      !!!!!!!!!!!!!!!!!!
+```
+
+## <a name="ssh"></a>ssh
+
+### install
+```
+sudo apt install openssh-server          connect with putty
+#sudo apt install vsftpd         https://help.ubuntu.com/lts/serverguide/ftp-server.html  ssh is enough so far.
 ```
 
 ## <a name="php"></a>php
