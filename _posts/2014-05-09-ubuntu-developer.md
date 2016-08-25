@@ -22,8 +22,8 @@ Set up a ubuntu for development with windows.
 2. big:::: websphere portal
 2. tomcat
 2. [apache](#apache)
-  -. [php](#php)
-  -. markdown
+  - [php](#php)
+  - markdown
 
 
 ## some develop tool:
