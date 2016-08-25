@@ -35,7 +35,7 @@ Set up a ubuntu for development with windows.
 2. [activator](#activator)
 
 ## compile lib:
-- [nodejs](#nodejs)
+- [nodejs](#nodejs1)
   - angular
 - java
   - scala
@@ -137,13 +137,13 @@ To run the Activator UI
 activator ui   and visit http://localhost:8888/home
 ```
 
-## <a name="nodejs"></a>nodejs
+## <a name="nodejs1"></a>nodejs
 ### proxy
 ```
 npm config set strict-ssl =false
 npm config set https-proxy=https://204.40.194.129:3128
-#npm config set proxy=http://204.40.194.129:3128
---npm config set registry=http://registry.npmjs.org
+npm config set proxy=http://204.40.194.129:3128
+#npm config set registry=http://registry.npmjs.org
 ```
 
 ## <a name="php"></a>php
