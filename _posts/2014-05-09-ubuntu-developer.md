@@ -27,6 +27,7 @@ Set up a ubuntu for development with windows.
 
 ## some develop tool:
 1. [git](#git)
+2. [svn](#svn)
 2. sublime
 2. eclipse
 2. big:::  RSA
@@ -42,7 +43,6 @@ Set up a ubuntu for development with windows.
 - [php](#php)
 - phython?
 - c#?
-- Thomas Jefferson	
 
 ## <a name="git"></a>git
 
@@ -52,7 +52,7 @@ git config --global user.name "Andy Wang"
 git config --global user.email "andywang1908@gmail.com"
 [ref](https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/)
 
-git config --global http.proxy http://proxyuser:proxypwd@proxy.server.com:8080
+git config --global http.proxy http://ebc%5Cwangan1:Ontario3%24@204.40.194.129:3128
 git config --global http.proxy http://204.40.194.129:3128
 #git config --global --unset http.proxy
 ```
@@ -86,6 +86,18 @@ git pull
 
 ### bulid blog with markdown
 - [ref](http://jmcglone.com/guides/github-pages/)
+
+## <a name="svn"></a>svn
+
+### for java
+```
+data: https://gscbiqdcapmdw01.cihs.ad.gov.on.ca:8443/svn/SOIT_S2I_Automation
+sudo apt-get install libsvn-java
+sudo find / -name libsvnjavahl-1.so  get /usr/lib/x86_64-linux-gnu/jni/libsvnjavahl-1.so
+next step may skip
+Although the library is installed, you still have to tell Java (when used for Eclipse) where to find it. The JVM on Linux does not look in a lot of the standard locations to find the libraries. (This could obviously change in the future.) For example, 32-bit Debian/Ubuntu uses a standard location of /usr/lib/jni for libraries to be used from Java. However, the Oracle JVM does not currently look in this location. The easiest way to tell Java where to find the JavaHL library is to specify the following when starting the JVM:
+-Djava.library.path=</path/to/library>
+```
 
 ## <a name="apache"></a>apache
 
@@ -146,6 +158,12 @@ npm config set proxy=http://204.40.194.129:3128
 #npm config set registry=http://registry.npmjs.org
 ```
 
+### global command
+```
+sudo npm install less -g
+sudo npm install http-server -g
+```
+
 ## <a name="proxy"></a>proxy & ubuntu apt
 
 ### ontario
@@ -160,6 +178,13 @@ Acquire::http::Proxy "http://204.40.194.129:3128";
 Acquire::http::Proxy "http://ebc\wangan1:Ontario2$@204.40.194.129:3128";
 #Acquire::https::Proxy "http://204.40.194.129:3128";
 sudo apt-get update      !!!!!!!!!!!!!!!!!!
+
+list:
+firefox    chrome       ::::network setting
+npm   
+apt
+sublime
+svn
 ```
 
 ## <a name="ssh"></a>ssh
