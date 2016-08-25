@@ -10,8 +10,7 @@ Set up a ubuntu for development with windows.
 
 1. Launch Terminal by pressing Ctrl+Alt+T
 2. sudo gedit /etc/profile
-2. Item2
-2. Item3
+2. alt+F2 run a software
 
 ## some service not in develop
 1. Mysql
@@ -23,7 +22,7 @@ Set up a ubuntu for development with windows.
 1. play
 2. big:::: websphere portal
 2. tomcat
-2. apache
+2. [apache](#apache)
   1. php
   2. markdown
 
@@ -91,10 +90,15 @@ git pull
 ### bulid blog with markdown
 - [ref](http://jmcglone.com/guides/github-pages/)
 
+## <a name="apache"></a>apache
+
+### install
+```
+sudo apt-get install apache2
+```
+[ref](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 
 ## <a name="php"></a>php
-
-
 
 | Command | Description |
 | --- | --- |
