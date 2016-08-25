@@ -13,22 +13,38 @@ Set up a ubuntu for development with windows.
 2. Item2
 2. Item3
 
-## some different servcie:
+## some service not in develop
+1. Mysql
+2. Hadoop + HBase
+3. oracle
+4. spark
+
+## some servcie for debug:
+1. play
+2. big:::: websphere portal
+2. tomcat
+2. apache
+  1. php
+  2. markdown
+
 
 ## some develop tool:
 
 1. [git](#git)
 2. sublime
+2. eclipse
+2. big:::  RSA
+2. mysql workbench
 
 ## compile lib:
 
+- nodejs
+  - angular
+- java
+  - scala
 - [php](#php)
-- Another item
-  - Unordered sub-list. 
-- Actual numbers don't matter, just that it's a number
-  - Ordered sub-list
-- George Washington abc.
-- John Adams
+- phython?
+- c#?
 - Thomas Jefferson	
 
 
