@@ -7,7 +7,6 @@ date: 2016-08-15
 Set up a ubuntu for development with windows.
 	
 ## some tips:
-
 1. Launch Terminal by pressing Ctrl+Alt+T
 2. sudo gedit /etc/profile
 2. alt+F2 run a software
@@ -28,7 +27,6 @@ Set up a ubuntu for development with windows.
 
 
 ## some develop tool:
-
 1. [git](#git)
 2. sublime
 2. eclipse
@@ -37,8 +35,7 @@ Set up a ubuntu for development with windows.
 2. [activator](#activator)
 
 ## compile lib:
-
-- nodejs
+- [nodejs](#nodejs)
   - angular
 - java
   - scala
@@ -137,10 +134,17 @@ activator
 To run the test
 activator test
 To run the Activator UI
-activator ui
+activator ui   and visit http://localhost:8888/home
 ```
 
-- [ref](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
+## <a name="nodejs"></a>nodejs
+### proxy
+```
+npm config set strict-ssl =false
+npm config set https-proxy=https://204.40.194.129:3128
+#npm config set proxy=http://204.40.194.129:3128
+--npm config set registry=http://registry.npmjs.org
+```
 
 ## <a name="php"></a>php
 
