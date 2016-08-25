@@ -13,17 +13,17 @@ Set up a ubuntu for development with windows.
 2. alt+F2 run a software
 
 ## some service not in develop
-1. Mysql
+1. [Mysql](#Mysql)
 2. Hadoop + HBase
 3. oracle
 4. spark
 
-## some servcie for debug:
+## some server and lib for debug:
 1. play
 2. big:::: websphere portal
 2. tomcat
 2. [apache](#apache)
-  1. php
+  1. [php](#php)
   2. markdown
 
 
@@ -96,9 +96,36 @@ git pull
 ```
 sudo apt-get install apache2
 ```
-[ref](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
+- [ref](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
+
+## <a name="Mysql"></a>Mysql
+
+### install
+```
+sudo apt-get install mysql-server
+root  Xizang2$A
+sudo mysql_secure_installation --close remote connect for safty
+```
+- [ref](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 
 ## <a name="php"></a>php
+
+### install
+```
+sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql
+sudo nano /etc/apache2/mods-enabled/dir.conf
+sudo systemctl restart apache2
+sudo systemctl status apache2
+
+sudo vi /var/www/html/info.php
+insert
+<?php
+phpinfo();
+http://your_server_IP_address/info.php 
+sudo rm /var/www/html/info.php  after that, romove for safety
+```
+- [ref](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
+
 
 | Command | Description |
 | --- | --- |
