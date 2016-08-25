@@ -34,6 +34,7 @@ Set up a ubuntu for development with windows.
 2. eclipse
 2. big:::  RSA
 2. mysql workbench
+2. [activator](#activator)
 
 ## compile lib:
 
@@ -106,6 +107,39 @@ sudo apt-get install mysql-server
 root  Xizang2$A
 sudo mysql_secure_installation --close remote connect for safty
 ```
+- [ref](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
+
+## <a name="activator"></a>activator
+
+### install
+```
+download to /home/andy/green/pro/activator/activator-1.3.10-minimal/bin/activator
+sudo gedit /etc/profile
+add 
+PATH=/home/andy/green/pro/activator/activator-1.3.10-minimal/bin:$PATH
+export PATH
+export JAVA_OPTS="$JAVA_OPTS -Dhttp.proxyHost=204.40.194.129 -Dhttp.proxyPort=3128 -Dhttps.proxyHost=204.40.194.129 -Dhttps.proxyPort=3128 -Dhttp.proxyUser=ebc\wangan1 -Dhttp.proxyPassword=Ontario3$"
+to file for path and proxy
+run 
+. /ect/profile to make effection
+```
+
+### usage
+```
+Create a new project from the command line:
+activator new
+then 
+cd /home/andy/Documents/play2/hello
+Run an existing project from its directory:
+activator run
+Enter the interactive cli (in project directory):
+activator
+To run the test
+activator test
+To run the Activator UI
+activator ui
+```
+
 - [ref](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu-16-04)
 
 ## <a name="php"></a>php
