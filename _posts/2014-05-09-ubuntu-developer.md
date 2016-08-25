@@ -138,6 +138,7 @@ activator ui   and visit http://localhost:8888/home
 ```
 
 ## <a name="nodejs1"></a>nodejs
+
 ### proxy
 ```
 npm config set strict-ssl =false
