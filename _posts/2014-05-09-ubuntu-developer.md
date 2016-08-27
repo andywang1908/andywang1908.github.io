@@ -52,7 +52,7 @@ git config --global user.name "Andy Wang"
 git config --global user.email "andywang1908@gmail.com"
 [ref](https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu-14.04/)
 
-git config --global http.proxy http://ebc%5Cwangan1:Ontario3%24@204.40.194.129:3128
+git config --global http.proxy http://ebc%5Cwangan1:Ontario2%24@204.40.194.129:3128
 git config --global http.proxy http://204.40.194.129:3128
 #git config --global --unset http.proxy
 ```
