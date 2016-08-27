@@ -9,7 +9,7 @@ Set up a ubuntu for development with windows.
 ## some tips:
 1. Launch Terminal by pressing Ctrl+Alt+T
 2. sudo gedit /etc/profile
-2. alt+F2 run a software
+2. alt+F2 run a software.
 
 ## some service not in develop
 1. [Mysql](#Mysql)
