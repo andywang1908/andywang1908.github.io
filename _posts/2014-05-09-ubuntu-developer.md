@@ -11,19 +11,28 @@ Set up a ubuntu for development with windows.
 2. sudo gedit /etc/profile
 2. alt+F2 run a software.
 
-## some service not in develop
+## some servise for server
 1. [Mysql](#Mysql)
 2. Hadoop + HBase
-3. oracle
-4. spark
+2. oracle
+2. spark
 
-## some server and lib for debug:
+## some servise for debug and server
 1. play
 2. big:::: websphere portal
 2. tomcat
 2. [apache](#apache)
   - [php](#php)
   - markdown
+
+## some lib for debug and server
+- [nodejs](#nodejs1)
+  - angular
+- java
+  - scala
+- [php](#php)
+- phython?
+- c#?
 
 ## some develop tool:
 1. [git](#git)
@@ -34,15 +43,6 @@ Set up a ubuntu for development with windows.
 2. mysql workbench
 2. [activator](#activator)
 2. [proxy](#proxy)
-
-## compile lib:
-- [nodejs](#nodejs1)
-  - angular
-- java
-  - scala
-- [php](#php)
-- phython?
-- c#?
 
 ## <a name="git"></a>git
 
