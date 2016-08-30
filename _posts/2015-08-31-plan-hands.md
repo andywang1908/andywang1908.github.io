@@ -17,6 +17,18 @@ Some projects need to be finished asap.This is the last chance.Hope Plan works t
 1. trigger by user,not crawler
 2. save data into json
 
+## json
+'''
+{
+  name:''
+}
+'''
+
+## crawler
+http://www.toysrus.ca/shopByBrand/index.jsp?categoryId=2567269
+
+## match search , match across website(toy,walmart,amazon,ebay,bestbuy,)
+
 ## <a name="HBase"></a>HBase
 1. install using docker
 
