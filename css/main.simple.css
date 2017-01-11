@@ -86,7 +86,7 @@ blockquote::after{
   content: "";
 }
 
-blockquote a{
+blockquote a {
   text-decoration: none;
   background: #eee;
   cursor: pointer;
