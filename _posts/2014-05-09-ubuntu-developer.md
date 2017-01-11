@@ -68,7 +68,7 @@ git remote add origin https://github.com/andywang1908/andywang1908.github.io
 git pull origin master
 ```
 
-[R1](https://help.github.com/articles/generating-an-ssh-key/)
+- [R1](https://help.github.com/articles/generating-an-ssh-key/)
 
 ### export reposity
 ```
