@@ -63,8 +63,12 @@ cd ~/git
 git init andywang1908.github.io
 cd andywang1908.github.io
 git remote add origin https://github.com/andywang1908/andywang1908.github.io
+#use ssh keys
+#git remote set-url origin git@gist.github.com:andywang1908/andywang1908.github.io
 git pull origin master
 ```
+
+[R1](https://help.github.com/articles/generating-an-ssh-key/)
 
 ### export reposity
 ```
