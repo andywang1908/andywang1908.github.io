@@ -2,5 +2,5 @@
 
 ##common mistake
 
-##anti pattern
+##anti pattern.
 
