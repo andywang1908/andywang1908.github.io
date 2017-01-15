@@ -233,3 +233,7 @@ In the words of Joseph Campbell:
 try image
 
 ![Alt text](https://googledrive.com/host/0B-gKvP-SnWnKQ1d4cE9GSVQ5RWc/image/2016-08-04-CI.png "Optional title")
+
+![Alt text](https://docs.google.com/uc?id=0B-gKvP-SnWnKbmhpZ2hIdG5qQW8 "Optional title")
+
+[R1](https://docs.google.com/uc?id=0B-gKvP-SnWnKbmhpZ2hIdG5qQW8)
