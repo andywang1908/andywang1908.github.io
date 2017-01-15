@@ -236,4 +236,13 @@ try image
 
 ![Alt text](https://docs.google.com/uc?id=0B-gKvP-SnWnKbmhpZ2hIdG5qQW8 "Optional title")
 
+```
+eval $(ssh-agent -s)
+ssh-add ~/.ssh/id_rsa
+
+git add *
+git commit -am "v1"
+git push origin master
+```
+
 [R1](https://docs.google.com/uc?id=0B-gKvP-SnWnKbmhpZ2hIdG5qQW8)
