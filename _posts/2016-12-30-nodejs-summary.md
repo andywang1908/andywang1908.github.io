@@ -1,6 +1,6 @@
-#angular2 anti
+# angular2 anti
 
-##common mistake
+## common mistake
 
 [R1](https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes)
 
@@ -12,8 +12,8 @@
 
 [Advanced Error Handling in Node.js With Best Practices](https://www.linkedin.com/pulse/advanced-error-handling-nodejs-best-practices-sandip-das?articleId=7819533121517654217)
 
-##anti pattern
+## anti pattern
 
-##interview question
+## interview question
 [R1](https://www.toptal.com/nodejs/interview-questions)
 

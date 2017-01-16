@@ -6,7 +6,7 @@ date: 2016-12-31
 
 angular2 summary
 
-##common mistake
+## common mistake
 
-##anti pattern.
+## anti pattern.
 
