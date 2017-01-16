@@ -103,6 +103,11 @@ Although the library is installed, you still have to tell Java (when used for Ec
 -Djava.library.path=</path/to/library>
 ```
 
+(Ref)[http://subclipse.tigris.org/wiki/JavaHL]
+
+(Ref)[http://stackoverflow.com/questions/9303293/subclipse-and-javahl-installation-headache]
+
+
 ## <a name="apache"></a>apache
 
 ### install
