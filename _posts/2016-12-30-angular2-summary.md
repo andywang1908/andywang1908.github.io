@@ -4,7 +4,7 @@ title: "Angular2 Summary"
 date: 2016-12-30
 ---
 
-#angular2 anti
+angular2 summary
 
 ##common mistake
 
