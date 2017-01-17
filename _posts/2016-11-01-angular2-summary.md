@@ -4,3 +4,6 @@ angular2 summary
 
 ## anti pattern.
 
+## problem
+
+### 
