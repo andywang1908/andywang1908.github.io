@@ -1,4 +1,3 @@
-#Photoshop
 
 ### rss
 
