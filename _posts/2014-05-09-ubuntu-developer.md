@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ubantu Developer VM"
-date: 2016-08-15
+date: 2014-05-10
 ---
 
 Set up a ubuntu for development with windows.
