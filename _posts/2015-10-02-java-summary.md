@@ -1,5 +1,19 @@
 nodejs summary
 
+## tricks and tips
+
+swarm......
+
+[Hidden Features of Java](http://stackoverflow.com/questions/15496/hidden-features-of-java)
+
+## performence tuning
+
+[Ref](http://javaperformancetuning.com/)
+
+[concurrency](http://www.vogella.com/tutorials/JavaConcurrency/article.html)
+
+[not simple deadlock](http://howtodoinjava.com/java-concurrency-tutorial/)
+
 ## common mistake
 
 [R1](https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes)
@@ -16,6 +30,8 @@ nodejs summary
 
 ## interview question
 [R1](https://www.toptal.com/nodejs/interview-questions)
+
+
 
 ## code style
 
