@@ -1,18 +1,16 @@
 nodejs summary
 
-## common mistake
+## tips and tricks
 
-[R1](https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes)
 
-[R2](https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make)
 
-[3 Common node.js design patterns that are misused](https://www.appneta.com/blog/3-common-node-js-design-patterns-that-are-misused/)
+## performance
 
-[Node.js Best Practices](https://blog.risingstack.com/node-js-best-practices/)
+[Native SQL Queries](http://www.thoughts-on-java.org/jpa-native-queries/)
 
-[Advanced Error Handling in Node.js With Best Practices](https://www.linkedin.com/pulse/advanced-error-handling-nodejs-best-practices-sandip-das?articleId=7819533121517654217)
+[boost your Hibernate performance](http://www.thoughts-on-java.org/tips-to-boost-your-hibernate-performance/)
 
-## anti pattern
+[Batch](https://dzone.com/articles/how-batch-insert-and-update)
 
 ## interview question
-[R1](https://www.toptal.com/nodejs/interview-questions)
+[R1](http://www.journaldev.com/3633/hibernate-interview-questions-and-answers)
