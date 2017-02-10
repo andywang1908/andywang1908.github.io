@@ -1,19 +1,33 @@
-nodejs summary
 
-## common mistake
+Java Eclipse
 
-[R1](https://www.toptal.com/nodejs/top-10-common-nodejs-developer-mistakes)
+## hot deploy
 
-[R2](https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make)
+form server
 
-[3 Common node.js design patterns that are misused](https://www.appneta.com/blog/3-common-node-js-design-patterns-that-are-misused/)
+- tomcat setting: load hot code
+- add remote server to IDE
 
-[Node.js Best Practices](https://blog.risingstack.com/node-js-best-practices/)
+from code
 
-[Advanced Error Handling in Node.js With Best Practices](https://www.linkedin.com/pulse/advanced-error-handling-nodejs-best-practices-sandip-das?articleId=7819533121517654217)
+- jetty or tomcat and plugin and command , deploy to local or remote server
+- spring boot
 
-## anti pattern
+magic thing
 
-## interview question
-[R1](https://www.toptal.com/nodejs/interview-questions)
+- jRebel vs DCEVM
+
+
+## remote server
+
+- if use ssh, ssh port must be 22
+- docker , at least linux
+
+[Starting a remote WebSphere Application Server](https://www.ibm.com/support/knowledgecenter/was_beta_devtools/com.ibm.websphere.wdt.doc/topics/tremote_start.htm)
+
+
+## detail, be careful, no lazy
+
+- 使用 path 里面的jdk , as same as maven, 注意32和64位
+- use path maven, not embeded maven, recommend 3.2 which can work on jdk6
 
