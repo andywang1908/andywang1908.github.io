@@ -5,6 +5,9 @@
 
 [Toshiba 65" 4K UHD LED TV (65L621U) - Black - Only at Best Buy]($999.99)
 
+http://www.lenovo.com/epp/  ---  http://www3.lenovo.com/ca/en/ibmeppca/  
+IBM Employee EPP Password = "IBMEPP"
+
 
 ## buffet
 
