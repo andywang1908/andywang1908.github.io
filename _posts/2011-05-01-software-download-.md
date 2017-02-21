@@ -1,6 +1,6 @@
 Software download
 
-0. Microsoft msdn
+## Microsoft msdn
 Windows Web Server 2008 R2
 KBV3Q-DJ8W7-VPB64-V88KG-82C49
 Windows Server 2008 R2 Standard
@@ -10,10 +10,53 @@ Windows Server 2008 R2 Enterprise
 Windows Server 2008 R2 Datacenter
 QX7TD-2CMJR-D7WWY-KVCYC-6D2YT
 
-1. vmware [link](https://my.vmware.com/web/vmware/info?slug=desktop_end_user_computing/vmware_workstation/11_0)
+en_windows_10_multiple_editions_version_1511_updated_apr_2016_x64_dvd_8705583.iso
+sha1:1B247B5B348E78C9BC3AFD3C1CBE10CEE3D1B9D5
+
+en_windows_8.1_pro_vl_with_update_x64_dvd_6050880.iso
+SHA1: 962A1D890987B5877469433928B8C8B8A3E945CD
+
+## vmware 
+
+[link](https://my.vmware.com/web/vmware/info?slug=desktop_end_user_computing/vmware_workstation/11_0)
 
 VMware Workstation 11:
 1F04Z-6D111-7Z029-AV0Q4-3AEH8
 
-2. fdas
-2. fdsa
+## TOAD
+
+https://account.software.dell.com
+us-downloads.quest.com/Repository/support.quest.com/Toad for Oracle/12.8/Software/Toad_for_Oracle_2015_R2_x86_Full.exe
+us-downloads.quest.com/Repository/support.quest.com/Toad for Oracle/12.8/Software/Toad_for_Oracle_2015_R2_x64_Full.exe
+
+LicenseKey: CJ2PFCQ6P49Q4WHQT2D03GNTVX2AN5DG6FWD04YL4QW625KT391J9YF38VKB92SNBWNW-RU-BOARD-BD
+SiteMessage: cr2384
+
+## PL/SQL
+
+https://www.allroundautomations.com/bodyplsqldevreg.html
+PLSQL Developer V10  for V10.0.3.1701
+avaid to: 9999/12/31
+
+License Number: 999
+Product Code: ljkfuhjpccxt8xq2re37n97595ldmv9kch
+Serial Number: 302967
+Password: xs374ca
+
+http://stackoverflow.com/questions/1832908/how-to-connect-to-remote-oracle-db-with-pl-sql-developer
+http://stackoverflow.com/questions/43866/how-sid-is-different-from-service-name-in-oracle-tnsnames-ora
+
+NETWORK\admin\TNSNAMES.ORA
+ORA11gR23 =
+  (DESCRIPTION =
+      (ADDRESS =
+        (PROTOCOL = TCP)
+        (HOST = gscgikdcdbrac01.service.cihs.gov.on.ca)
+        (PORT = 1525)
+      )
+      (CONNECT_DATA =
+        (SERVER = DEDICATED)
+        (SERVICE_NAME = GSIC_S2I)
+      )
+  )
+

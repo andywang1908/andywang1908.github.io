@@ -1,4 +1,5 @@
-nodejs summary
+
+## todo
 
 ## common mistake
 
@@ -13,6 +14,14 @@ nodejs summary
 [Advanced Error Handling in Node.js With Best Practices](https://www.linkedin.com/pulse/advanced-error-handling-nodejs-best-practices-sandip-das?articleId=7819533121517654217)
 
 ## anti pattern
+
+## node_modules order
+
+[Ref](http://www.cnblogs.com/joyeecheung/p/3941705.html)
+
+##$ watch $apply $digest
+[Ref](http://www.angularjs.cn/A0a6)
+
 
 ## interview question
 [R1](https://www.toptal.com/nodejs/interview-questions)
