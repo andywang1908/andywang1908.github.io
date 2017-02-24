@@ -24,6 +24,7 @@ magic thing
 - docker , at least linux
 
 [Starting a remote WebSphere Application Server](https://www.ibm.com/support/knowledgecenter/was_beta_devtools/com.ibm.websphere.wdt.doc/topics/tremote_start.htm)
+[netbean](http://www.xuebuyuan.com/813736.html)
 
 
 ## detail, be careful, no lazy

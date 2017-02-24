@@ -35,6 +35,8 @@ IBM Employee EPP Password = "IBMEPP"
 
 [Kingston MobileLite Wireless G3 External Hard Drive - used in on wi-fi](http://www.thesource.ca/en-ca/computers-and-tablets/hard-drives-and-storage/hard-drives/kingston-mobilelite-wireless-g3-external-hard-drive---white/p/108047058)(80 --> 60)
 
+kindel whitepaper  140-->120
+
 
 HP 8460P Laptop i7 2670qm Quadcore 2.2Ghz, 4G DDR3, 500G, Webcam, DVDRW, 14"W, Win7 Pro Genuine License, Intel HD graphics 3000, 90 days warranty     (ca$380)
 be careful:  i7 with qm not m

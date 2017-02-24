@@ -111,6 +111,14 @@ Window > Preferences > General > Workspace, set "Text file encoding" to "Other :
 84 86 215 + font size 18
 
 4 spaces
+
+for each installation (but this may vary for multi-user installations), in files stored in: <eclipse_home>/eclipse/configuration/.settings/
+for each workspace, in files stored in <workspace>/.metadata/.plugins/org.eclipse.core.runtime/.settings .
+
+https://github.com/andywang1908/java-spring
+jetty:run
+tomcat7:run
+http://localhost:8080/cempedak-web/helloWorld/hello?type=a
 ```
 
 ### big branch
