@@ -15,9 +15,13 @@ nodejs summary
 ## anti pattern
 
 ## interview question
+
 [R1](https://www.toptal.com/nodejs/interview-questions)
 
 ## MVC
 
 [R1](http://www.jianshu.com/p/b130f9a4e3d5)(SpringMVC干货系列：从零搭建SpringMVC+mybatis（一）.pdf)
 
+## spring boot
+
+[Spring Boot项目部署到 IBM WebSphere 8.5.5需要注意的地方](http://m.blog.csdn.net/article/details?id=51330051)
