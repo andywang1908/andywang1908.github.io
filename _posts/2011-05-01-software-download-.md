@@ -5,6 +5,12 @@ Software download
 http://www.techug.com/
 
 ## Microsoft msdn
+
+[home](https://msdn.microsoft.com/en-us/subscriptions/hh442898.aspx#searchTerm=windows%2010&ProductFamilyId=0&Languages=en&PageSize=10&PageIndex=0&FileId=0)
+
+en_windows_8.1_pro_vl_with_update_x64_dvd_6050880.iso
+SHA1: 962A1D890987B5877469433928B8C8B8A3E945CD
+
 Windows Web Server 2008 R2
 KBV3Q-DJ8W7-VPB64-V88KG-82C49
 Windows Server 2008 R2 Standard
@@ -15,10 +21,15 @@ Windows Server 2008 R2 Datacenter
 QX7TD-2CMJR-D7WWY-KVCYC-6D2YT
 
 en_windows_10_multiple_editions_version_1511_updated_apr_2016_x64_dvd_8705583.iso
-sha1:1B247B5B348E78C9BC3AFD3C1CBE10CEE3D1B9D5
+sha1: 1B247B5B348E78C9BC3AFD3C1CBE10CEE3D1B9D5
 
-en_windows_8.1_pro_vl_with_update_x64_dvd_6050880.iso
-SHA1: 962A1D890987B5877469433928B8C8B8A3E945CD
+en_windows_10_multiple_editions_version_1607_updated_jul_2016_x64_dvd_9058187.iso
+SHA1： 99FD8082A609997AE97A514DCA22BECF20420891
+
+en_windows_10_multiple_editions_version_1607_updated_jan_2017_x64_dvd_9714399.iso
+sha1: 44064680647EE4C877A6F54739AD82759147C828
+
+[ref](http://www.w10zj.com/Win10xy/Win10yh_1463.html)
 
 ## vmware 
 
