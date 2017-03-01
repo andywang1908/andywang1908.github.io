@@ -75,3 +75,7 @@ ORA11gR23 =
       )
   )
 
+## VNC
+
+License key: K2HRH-NH3BK-G9564-A4BX3-WSPPA
+Valid for: 5 desktops

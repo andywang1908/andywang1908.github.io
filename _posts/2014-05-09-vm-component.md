@@ -7,6 +7,7 @@
 
 1. unplug internet use mary as admin
 2. create normal user mary  netplwiz use this to login
+3. disable update
 
 ### v0 
 

@@ -33,6 +33,10 @@ Fido手机的中文服务电话：1-866-888-3436
 http://www.lenovo.com/epp/  ---  http://www3.lenovo.com/ca/en/ibmeppca/  
 IBM Employee EPP Password = "IBMEPP"
 
+http://www.dell.com/learn/us/en/22/campaigns/dell-coupons-codes-us-outlet
+dell laptop
+
+
 [Kingston MobileLite Wireless G3 External Hard Drive - used in on wi-fi](http://www.thesource.ca/en-ca/computers-and-tablets/hard-drives-and-storage/hard-drives/kingston-mobilelite-wireless-g3-external-hard-drive---white/p/108047058)(80 --> 60)
 
 kindel whitepaper  140-->120
@@ -43,15 +47,17 @@ be careful:  i7 with qm not m
 skyslake with DDR4 not DDR3L
 
 
-## buffet
+## restraunt
+
+[陶陶居海鮮酒家](http://ad.singtao.ca/%E9%A4%90%E5%BB%B3%E9%A3%AE%E9%A3%9F/%E9%A4%90%E5%BB%B3%E9%85%92%E6%A8%93/50749-%E9%99%B6%E9%99%B6%E5%B1%85%E6%B5%B7%E9%AE%AE%E9%85%92%E5%AE%B6/)
 
 [Super Buffet close?]
 (http://ccue.singtao.ca/toronto/%E5%90%83%E5%96%9D/%E6%BA%AB%E8%9F%B9%E9%BE%8D%E8%9D%A6%E8%9F%B9%E8%85%B3%E4%BB%BB%E9%A3%9F-%E9%82%84%E6%9C%89%E4%BD%9B%E8%B7%B3%E7%89%86%E4%BB%BB%E9%A3%B2%EF%BC%81)
-(https://www.yelp.ca/biz/super-buffet-scarborough)
 
-## food
+[yelp](https://www.yelp.ca/biz/super-buffet-scarborough)
 
 [Japan downtown](http://www.narcity.com/toronto/japans-pablo-cheese-tarts-is-opening-a-toronto-location-and-we-are-freaking-out/#)
+
 
 ## italkbb
 
@@ -90,3 +96,38 @@ torontofreeparking.ca
 ## history
 
 Britax Marathon (G4.1) Convertible Car Seat, Onyx(car seat)    CDN$ 269.99
+
+
+
+## tool
+
+http://www.weibovideo.com/
+https://www.onlinevideoconverter.com/video-converter
+
+## idea
+http://lp.fiverr.com/lp-fb-cartoonists/?utm_source=twitter&utm_medium=display&utm_campaign=TW_USUKAUCA_Cate-Cartoons_General_Desktop_M_DA0301  draw cartoon of andy
+
+
+## andy
+
+方脸 金城武 周华健  http://www.jiushixing.com/html/201405/5360_5.shtml
+
+## network
+
+admin / yu
+
+add 222 to local 222
+
+[Ref](https://www.ncf.ca/ncf/support/wiki/Modem_Configuration_(DSL)_SmartRG_SR505N)
+[如何查看是否有木马](http://jingyan.baidu.com/article/77b8dc7fc924636174eab6fe.html)
+
+## house
+
+[ref](http://ccue.singtao.ca/toronto/howto/%E6%94%B6%E8%97%8F%EF%BC%81%E3%80%8C%E6%88%BF%E5%B1%8B%E7%B6%AD%E4%BF%AE%E6%99%82%E9%96%93%E8%A1%A8%E3%80%8D)
+
+## school
+
+[ref](https://weknowtoronto.wordpress.com/%E5%AD%A6%E5%8C%BA/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%A4%9A%E4%BC%A6%E5%A4%9A%E5%B0%8F%E5%AD%A6%E5%A5%BD%E5%AD%A6%E5%8C%BA%EF%BC%9F/)
+[ref](http://www.tdsb.on.ca/Findyour/School/Byaddress.aspx)
+
+

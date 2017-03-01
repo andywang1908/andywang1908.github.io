@@ -21,3 +21,12 @@ angular2 summary
 
 [TypeScript Handbook](https://zhongsp.gitbooks.io/typescript-handbook/content/doc/handbook/tutorials/Angular%202.html)
 [十条](http://www.10tiao.com/html/283/201702/2650862488/1.html)
+
+## unit test
+
+TDD  karma,Jasmin
+BDD  Mocha,Chai
+
+## vs react
+
+[我由Angular转向React](http://www.iteye.com/news/30249)
