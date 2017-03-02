@@ -14,6 +14,9 @@
 - [ref](http://jingyan.baidu.com/user/npublic?un=%E4%BB%A8X%E4%B8%8D%E7%AD%89%E4%BA%8E%E5%9B%9B)
 - [equipment](http://www.anhei2.net/diablo2/jichu/2009/0615/95.html)
 - [关于快速奔跑与装甲](http://d2.uuu9.com/2007/200706/3297.shtml)
+- [物理攻擊傷害計算方式](http://eyg.myweb.hinet.net/D2/new/25.htm)
+- [diablo2 download](http://buzzerpcgames.blogspot.ca/2014/03/diablo-ii-lord-of-destruction.html)
+
 
 ## ias
 

@@ -30,6 +30,9 @@ BDD  Mocha,Chai
 
 [我由Angular转向React](http://www.iteye.com/news/30249)
 
+## example
+
+[基于Angular 2 CLI开发CRUD应用程序](http://developer.51cto.com/art/201607/514790.htm)
 
 ## notes
 ```

@@ -97,6 +97,21 @@ npm config set registry=http://registry.npmjs.org
 2. git
 2. svn
 
+#### git
+
+修改前
+
+    [remote "origin"]
+    url = https://github.com/humingx/humingx.github.io.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+
+修改后
+
+    [remote "origin"]
+    url = git@github.com:humingx/humingx.github.io.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+[git ssh](https://segmentfault.com/a/1190000002645623)
+
 ### green IDE
 
 #### selenium
