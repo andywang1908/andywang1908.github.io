@@ -79,3 +79,9 @@ ORA11gR23 =
 
 License key: K2HRH-NH3BK-G9564-A4BX3-WSPPA
 Valid for: 5 desktops
+
+## webstorm
+
+https://my.oschina.net/u/852387/blog/398713
+http://www.jianshu.com/p/5ce394a28ce5
+[intel idea 连接 oracle](http://idea.qinxi1992.cn/)

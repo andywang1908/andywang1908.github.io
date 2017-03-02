@@ -1,4 +1,7 @@
 
+## rss
+[thewirecutter](http://thewirecutter.com/reviews/best-bookshelf-speakers/)
+
 ## no rush
 
 canada goose   and   techsavvy  ,  miss the deal
@@ -114,9 +117,14 @@ http://lp.fiverr.com/lp-fb-cartoonists/?utm_source=twitter&utm_medium=display&ut
 
 ## network
 
-admin / yu
+192.168.1.1   admin / yu
+DE56654A
+
+for teksavvy , must set VPI =0 , VCI may 35
+route user   admin/admin change to andywang1908
 
 add 222 to local 222
+NAT DMZ
 
 [Ref](https://www.ncf.ca/ncf/support/wiki/Modem_Configuration_(DSL)_SmartRG_SR505N)
 [如何查看是否有木马](http://jingyan.baidu.com/article/77b8dc7fc924636174eab6fe.html)
@@ -129,5 +137,5 @@ add 222 to local 222
 
 [ref](https://weknowtoronto.wordpress.com/%E5%AD%A6%E5%8C%BA/%E5%A6%82%E4%BD%95%E9%80%89%E6%8B%A9%E5%A4%9A%E4%BC%A6%E5%A4%9A%E5%B0%8F%E5%AD%A6%E5%A5%BD%E5%AD%A6%E5%8C%BA%EF%BC%9F/)
 [ref](http://www.tdsb.on.ca/Findyour/School/Byaddress.aspx)
-
+[ref](http://www.findschool.ca/web/Search/Standard?g=true&t=1&q=54%20lynch%20rd%20%2C%20toronto)
 

@@ -25,6 +25,8 @@ magic thing
 
 [Starting a remote WebSphere Application Server](https://www.ibm.com/support/knowledgecenter/was_beta_devtools/com.ibm.websphere.wdt.doc/topics/tremote_start.htm)
 [netbean](http://www.xuebuyuan.com/813736.html)
+[Remote Debugging with Eclipse + WebSphere 7](https://www.mkyong.com/websphere/remote-debugging-with-eclipse-websphere-7/)
+[Running Java Applications from Eclipse IDEs in Docker Liberty Containers](http://heidloff.net/article/11.08.2015122346NHEE7W.htm)
 
 
 ## detail, be careful, no lazy
@@ -32,3 +34,13 @@ magic thing
 - 使用 path 里面的jdk , as same as maven, 注意32和64位
 - use path maven, not embeded maven, recommend 3.2 which can work on jdk6
 
+
+## sublime
+
+View -> Syntax -> Open all with current extension as... ->
+treat ts as js
+
+ctrl+U   clean terminal line
+
+### plugin
+HTML-CSS-JS Prettify

@@ -84,6 +84,11 @@ npm config set https-proxy "https://ebc%5Cwangan1:Ontario6%24@204.40.194.129:312
 npm config set registry=http://registry.npmjs.org
 ```
 
+##### multi version
+
+[n  and nvm](https://www.kancloud.cn/iwzh/wzhquestion/218860)
+[virtualenv 是 lib 级别的隔离，如果需要python解释器的隔离，可以直接用, pathon and node all need think of lib and sdk version]()
+
 #### python
 
 ### green code

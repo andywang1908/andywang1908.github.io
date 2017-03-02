@@ -4,6 +4,11 @@
 music / band
 pet / animal
 
+## CFA
+
+[CFA一级二级三级考试全通过心得_天下金融网](http://www.21jrr.com/cfa/2010/0317/10642.html)
+[CFA和CSC笔记和题库出售 - 职业培训 - 约克论坛](http://forum.yorkbbs.ca/training/4275444.aspx)
+
 ----emotion
 famaly baby
 

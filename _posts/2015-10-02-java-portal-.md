@@ -1,9 +1,12 @@
-nodejs summary
+
+## rss
+[ibm](http://www-01.ibm.com/support/docview.wss?uid=swg27012924)
 
 ## idea
 
 [安装配置Portal 6.0 和优化性能并减少资源消耗的方法](http://www.lai18.com/content/2897576.html)
 [RAD V7进行开发安装和配置WebSphere Portal V6.0 优化小窍门](http://www.lotuschina.net/Document/detail/tid/2423)
+[Integrating-Eclipse-and-WebSphere-Portal-7](http://www.theserverside.com/tip/Integrating-Eclipse-and-WebSphere-Portal-7)
 
 ## common mistake
 
@@ -22,3 +25,7 @@ nodejs summary
 ## interview question
 [R1](https://www.toptal.com/nodejs/interview-questions)
 [Ref](http://stackoverflow.com/questions/1480528/what-is-the-difference-between-a-portlet-and-a-servlet/8927313#8927313)
+
+## hello
+
+[ref](http://www.programgo.com/article/44571892898/)
