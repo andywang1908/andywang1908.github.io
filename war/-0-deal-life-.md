@@ -67,6 +67,8 @@ skyslake with DDR4 not DDR3L
 
 [Japan downtown](http://www.narcity.com/toronto/japans-pablo-cheese-tarts-is-opening-a-toronto-location-and-we-are-freaking-out/#)
 
+125 York Blvd, Richmond Hill, ON L4B 3B4
+[列治文山著名巴西燒肉Touro]()
 
 ## italkbb
 
@@ -171,3 +173,7 @@ http://freedns.afraid.org/subdomain/edit.php?data_id=16187593
 ## shoe
 
 ECCO Women's Intrinsic Knit Fashion Sneaker
+
+## fruit choose
+
+[ref](http://www.cmoney.tw/notes/note-detail.aspx?nid=24336)

@@ -42,7 +42,8 @@ famaly baby
 [it](https://it-ebooks-search.info/)
 [The Einstein Theory of Relativity](http://www.qcenglish.com/ebook/1028.html)
 
-## IT
+## IT      ++ uml
 
 [有哪些可以提高程序员技术档次的书或博客？](https://www.zhihu.com/question/23821125/answer/95800023)
 [有哪些可以提高程序员技术档次的书或博客？](https://www.zhihu.com/question/23821125/answer/90170295)
+[25 Must-Read Nonprofit IT Blogs 2016](http://www.biztechmagazine.com/article/2016/02/25-must-read-nonprofit-it-blogs-2016)

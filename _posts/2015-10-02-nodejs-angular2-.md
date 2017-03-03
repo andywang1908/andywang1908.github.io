@@ -230,6 +230,9 @@ http://10.160.200.135:6060/app/s2i-common-rest/index.html  is working
 - Waiting 2 seconds or wait unitl element is showing.
 - 100 test cases may break in the middle.
 
+[good framework to learn -- browserStack](https://www.browserstack.com/automate/node)
+[robot]()
+
 ## mobile
 
 - Every rest service may timeout.
