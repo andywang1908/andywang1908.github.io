@@ -11,6 +11,15 @@
 [youtube]
 [Top 20 Online Programming Courses to Boost your Career](https://www.javacodegeeks.com/2016/01/top-20-online-programming-courses-to-boost-your-career.html)
 
+## deep learning
+
+[人工智能(AI)资料大全](http://www.techug.com/post/awesome-artificial-intelligence.html)
+[Deep Learning（深度学习）学习笔记整理系列之（四）](http://blog.csdn.net/zouxy09/article/details/8775524)
+
+## space
+
+[朱諾號來的簡訊：天文學家們，木星需要你望遠鏡的目光！](http://pansci.asia/archives/110138)
+
 ## website
 9GAG:
 Quora:

@@ -112,6 +112,25 @@ npm config set registry=http://registry.npmjs.org
     fetch = +refs/heads/*:refs/remotes/origin/*
 [git ssh](https://segmentfault.com/a/1190000002645623)
 
+hen in your git bash you have to write the following line:
+git config --global core.excludesfile ~/.gitignore_global
+If the respository already exists then you have to do the following:
+
+1)git rm -r --cached .
+2)git add .
+3)git commit -m ".gitignore is now working"
+If the step 2 doesn´t work then you should write the hole route of the files that you would like to add.
+
+
+[ignore](http://stackoverflow.com/questions/4308610/how-to-ignore-certain-files-in-git)
+
+
+#### svn with x-windows
+
+[JavaHL](http://subclipse.tigris.org/wiki/JavaHL)
+[proxy](http://askubuntu.com/questions/109673/how-to-use-apt-get-via-http-proxy-like-this)
+[JavaHL](http://stackoverflow.com/questions/9303293/subclipse-and-javahl-installation-headache)
+
 ### green IDE
 
 #### selenium

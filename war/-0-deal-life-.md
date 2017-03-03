@@ -12,11 +12,17 @@ canada goose   and   techsavvy  ,  miss the deal
 
 Hopper 手機程式
 
-东航服务热线：010-95530; 南航服务热线：95539; 海航服务热线：95339
+东航服务热线：010-95530; 南航服务热线：95539; 海航服务热线：95339  (+86-898-95339.)
 WAN   YUSHENG G30606317   7022706841
 FENG   ZAIMIN G30606319   7024099762
 卡号 6102 7928 3157
 
+海航(+86-898-95339.)
+特殊旅客服务 第一排
+G30606317 万
+G30606319 冯
+
+andywang1909；金鹏卡号为：7044265415 邮箱 monkc@sina.com  密码 6位数字 131189
 
 Priceline  Tripadvisor  Expedia  Airbnb  YMCA
 [websites](https://www.zhihu.com/question/21552311/answer/24307949)
@@ -139,3 +145,29 @@ NAT DMZ
 [ref](http://www.tdsb.on.ca/Findyour/School/Byaddress.aspx)
 [ref](http://www.findschool.ca/web/Search/Standard?g=true&t=1&q=54%20lynch%20rd%20%2C%20toronto)
 
+
+## free dns host
+
+http://freedns.afraid.org/subdomain/edit.php?data_id=16187593
+157.52.20.233 andywang1908.mooo.com
+花生壳 类似  1h625g2778.imwork.net
+
+## driver
+
+[8560w driver](http://h20564.www2.hp.com/hpsc/swd/public/readIndex?sp4ts.oid=5071172&swLangOid=8&swEnvOid=4158)
+
+## it
+
+[带 Wi-Fi 模块的东芝 SD 卡](http://storage.yesky.com/382/35276882all.shtml)
+
+## gym
+
+[登楼梯](https://zhuanlan.zhihu.com/p/19925363)
+
+## e shop
+
+[日本亚马逊](http://www.qluu.com/amazon-japan.html)
+
+## shoe
+
+ECCO Women's Intrinsic Knit Fashion Sneaker

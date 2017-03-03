@@ -18,6 +18,10 @@ magic thing
 - jRebel vs DCEVM
 
 
+## jrebel
+[download](http://download.csdn.net/detail/javaee1234/9719736)
+
+
 ## remote server
 
 - if use ssh, ssh port must be 22
@@ -44,3 +48,16 @@ ctrl+U   clean terminal line
 
 ### plugin
 HTML-CSS-JS Prettify
+
+### filter
+
+{
+  "folders":
+  [
+    {
+      "path": ".",
+      "folder_exclude_patterns": [".sass-cache"],
+      "file_exclude_patterns": ["*.pdf", "*.psd"]
+    }
+  ]
+}

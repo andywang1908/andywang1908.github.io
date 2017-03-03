@@ -1,4 +1,8 @@
 
+## build trim
+
+[Building an Angular Application for Production -- AOT](http://blog.mgechev.com/2016/06/26/tree-shaking-angular2-production-build-rollup-javascript/)
+
 ## common mistake
 
 ## anti pattern.
@@ -6,6 +10,7 @@
 ## component
 
 [Comparison of Kendo UI and Wijmo](http://erictopia.com/2012/07/comparison-of-kendo-ui-and-wijmo-part-1/)
+[wijmo](http://demos.wijmo.com/5/angular2/InputIntro/InputIntro/)
 
 图片视频类 输入控件类 文本编辑器 界面类(页内滚动工具 树状目录组织扩展)
 [AngularJS常用插件与指令收集](https://chensd.com/2015-06/AngularJS-popular-Plugins-and-Directive.html)
@@ -205,7 +210,62 @@ http://10.160.200.135:6060/app/s2i-common-rest/index.html  is working
 
 ```
 
-## usage
 
-### abc
+## rss
+
+[Simple Routing with Redux and React](http://jamesknelson.com/simple-routing-redux-react/)
+[Redux 中文文档](http://cn.redux.js.org/docs/advanced/AsyncActions.html)
+
+##safety
+
+[R1](http://bijian1013.iteye.com/blog/2112233)
+
+##mistake
+
+[R1](https://leftstick.github.io/tech/2016/04/19/5-rookie-mistakes-to-avoid-with-angular-2)
+
+
+## selenium
+
+- Waiting 2 seconds or wait unitl element is showing.
+- 100 test cases may break in the middle.
+
+## mobile
+
+- Every rest service may timeout.
+- Cache
+- Send out message (dispatch) , do not call directly
+- Stat like redux
+- Observable
+
+## state redux
+
+Rxjs  = oberviable + promise(bluebird)
+
+redux is differenct, it is about state.
+
+## https
+
+SHA-1是基于MD4算法的 https is using 非对称算法, normally only verify server, not client
+[ref](http://www.willrey.com/support/ssl_des.html)
+
+## security
+
+[RESTful架构风格下的4大常见安全问题](http://insights.thoughtworkers.org/security-issues-in-restful/)
+[拿nodejs快速搭建简单Oauth认证和restful API server攻略。](https://cnodejs.org/topic/516774906d38277306ff5647)
+[日志 - restful api 设计，认证和授权相关的问题 - SegmentFault](https://segmentfault.com/q/1010000003041387)
+
+## debug
+
+[在控制台中调试AngularJS应用 - AngularJS小技巧 - 前端乱炖](http://www.html-js.com/article/AngularJS-tips-for-debugging-AngularJS-applications-in-the-console)
+
+## rxjs
+
+[RxJS初体验 input 5sencond](https://www.w3ctech.com/topic/1298)
+[chat](https://github.com/kittencup/angular2-ama-cn/issues/40)
+
+## SPA
+
+[ref](http://singlepageappbook.com/goal.html)
+[The disadvantages of single page applications --- try to conqure it](http://adamsilver.io/articles/the-disadvantages-of-single-page-applications/)
 

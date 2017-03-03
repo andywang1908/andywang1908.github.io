@@ -25,3 +25,12 @@ nodejs summary
 ## spring boot
 
 [Spring Boot项目部署到 IBM WebSphere 8.5.5需要注意的地方](http://m.blog.csdn.net/article/details?id=51330051)
+
+## idea
+
+[ref](http://www.journaldev.com/2696/spring-interview-questions-and-answers)
+[ref](http://www.geeksforgeeks.org/tag/amazon/)
+[ref](http://howtodoinjava.com/java-interview-questions/)
+[ref](https://www.javacodegeeks.com/2014/05/spring-interview-questions-and-answers.html)
+[ref](https://dzone.com/articles/this-week-in-spring-reactor-30-open-source-cd-and-all-kinds-of-cloud?fromrel=true)
+[jooq](http://jianwl.com/2016/06/14/JOOQ%E5%85%A5%E9%97%A8%E7%AF%87/)
