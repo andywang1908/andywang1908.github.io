@@ -4,6 +4,9 @@
 [json view](http://www.jsoneditoronline.org/)
 [youtbue download](https://www.onlinevideoconverter.com/video-converter)
 [微博视频解析下载](http://www.weibovideo.com/)
+[makedown to pdf](http://www.markdowntopdf.com/)
+[makedown online](http://dillinger.io/#)
+[使用GITHUB+JustWriting搭建BLOG](http://www.rainyluo.net/post/build_blog_with_git)
 
 ## lecture
 

@@ -30,6 +30,7 @@ famaly baby
 [使用Dropbox+Justwriting+Markdown搭建个人博客](https://gist.github.com/hjue/8461182162a9091918ae)
 [手把手教你使用Hexo + Github Pages搭建个人独立博客](https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/)
 [10分钟搭建一个基于github和jekyll的免费博客](http://cenalulu.github.io/jekyll/how-to-build-a-blog-using-jekyll-markdown/)
+[使用GITHUB+JustWriting搭建BLOG](http://www.rainyluo.net/post/build_blog_with_git)
 
 ## writer output
 [How to Write a Great Short Story](http://letswriteashortstory.com/great-story/?_ga=1.57257069.69677557.1464361828)

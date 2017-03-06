@@ -131,6 +131,8 @@ DE56654A
 for teksavvy , must set VPI =0 , VCI may 35
 route user   admin/admin change to andywang1908
 
+Acanac  taksavvy  zazeen
+
 add 222 to local 222
 NAT DMZ
 
@@ -165,6 +167,7 @@ http://freedns.afraid.org/subdomain/edit.php?data_id=16187593
 ## gym
 
 [登楼梯](https://zhuanlan.zhihu.com/p/19925363)
+[family sport](http://www.jianshu.com/p/d46d318424fe)
 
 ## e shop
 
