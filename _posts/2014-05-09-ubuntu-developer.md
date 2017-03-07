@@ -251,3 +251,22 @@ git push origin master
 ```
 
 [R1](https://docs.google.com/uc?id=0B-gKvP-SnWnKbmhpZ2hIdG5qQW8)
+
+
+### docker
+
+sudo mkdir /etc/systemd/system/docker.service.d
+sudo vi /etc/systemd/system/docker.service.d/http-proxy.conf
+```
+[Service]
+Environment="HTTPS_PROXY=http://proxy.example.com:80/"
+
+[Service]
+Environment="HTTPS_PROXY=http://ebc%5Cwangan1:Ontario6%24@204.40.194.129:3128/"
+
+//TODO add http and https together, when HTTPS_PROXY can use http.
+```
+sudo systemctl daemon-reload
+sudo systemctl show --property Environment docker
+sudo systemctl restart docker
+

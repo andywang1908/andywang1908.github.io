@@ -3,71 +3,164 @@
 
 ## UI window
 
-### v-1 in local
+### proxy list
+apt-get
+wget
+docker
 
-1. unplug internet use mary as admin
-2. create normal user mary  netplwiz use this to login
-3. disable update
+### v-1 ssh
+
+1. sudo apt-get install openssh-server (a.load iso as cd-rom b.sudo mount -o loop  -t iso9660 /dev/cdrom /media/cdrom ) may help
+
+home:::
+sudo vi /etc/ssh/sshd_config
+change port to 5431
+2. sudo apt-get update
 
 ### v0 
 
-1. using advanced mood with station not player, choose vm9 format so far.
-2. 12G/8G NAT  in on NAT can be actived
-2. if server 2008 , choose standard version
-2. if server 2012 , be careful of memory leak
-2. use andy to be first(admin) user, no need to create normal user
 
-### v1
-1. vmtool
-2. netplwiz admin
-2. NO HD MEMORY   PROGRAM FIRST
-2. setup 7z manually
-2. http://proxy2.gonet.gov.on.ca:9001/proxy.pac
-2. turn off firewall        command quick edit      taskbar not combine
-3. turn off update
-2. no active...
-2. allow remote desktop later?
+### v1 docker
+1. vmtool? later
+2. https://docs.docker.com/engine/installation/linux/ubuntu/#install-from-a-package   docker install
+
+or 
+
+export http_proxy=http://204.40.194.129:3128      not working 
+export https_proxy=$http_proxy            not working 
+sudo apt-get update
+sudo apt-get install wget
+sudo wget -qO- https://get.docker.com/ | sh
+sudo service docker start
+
+--
+Via ~/.wgetrc file:  working well
+use_proxy=yes
+http_proxy=http://204.40.194.129:3128
+https_proxy=http://204.40.194.129:3128
+
+or via -e options placed after the URL:
+wget ... -e use_proxy=yes -e http_proxy=127.0.0.1:8080 ...
+--
 
 ### v1.5 something missing
+1. samba later?
+2.
+privallage
+sudo groupadd docker
+sudo usermod -aG docker andy ($USER)
+ref:https://docs.docker.com/engine/installation/linux/ubuntulinux/
 
-1. rem disk
-2. some green pro for pdf,screen,putty,winscp
+# ZQoPQ2g6uVJE7cy4 is a safe password
+docker run -dt --name shadowsocks -p 5430:5000 mritd/shadowsocks -k ZQoPQ2g6uVJE7cy4 -w 2 -f
+docker pull mritd/shadowsocks
+
+TODO:
+docker start shadowsocks           on reboot automatic
+
+client:
+https://ttt.tt/150/
+
+
+-. fixed ip
+sudo vi /etc/network/interfaces
+
+# The primary network interface     --eth0 or ens33
+auto ens33
+iface ens33 inet static
+address 192.168.1.90
+gateway 192.168.1.1
+netmask 255.255.255.0
+dns-nameservers 8.8.8.8
+#network 192.168.3.0
+#broadcast 192.168.3.255
+
+make affection
+sudo /etc/init.d/networking restart
+
+ref:http://forum.ubuntu.org.cn/viewtopic.php?f=73&t=190174
+
+-. setup email
+sudo apt-get install ssmtp
+sudo cp /etc/ssmtp/ssmtp.conf /etc/ssmtp/ssmp.conf.init
+sudo vi /etc/ssmtp/ssmtp.conf
+
+root=andywang1909@gmail.com
+#465 587
+mailhub=smtp.gmail.com:587
+rewriteDomain=gmail.com
+AuthUser=andywang1909
+AuthPass=yUqian12
+AuthMethod=LOGIN
+FromLineOverride=YES
+UseTLS=YES
+UseSTARTTLS=Yes
+
+ssmtp andywang1908@gmail.com < newIp.txt for testing, may need restart
+
+
+ref:
+https://wiki.archlinux.org/index.php/SSMTP
+http://askubuntu.com/questions/12917/how-to-send-mail-from-the-command-line
+
+-. ip change
+sudo apt install curl
+
+----shell    chmod +x ip.sh
+#!/bin/bash
+cd /home/andy/ip
+oldIp=$(<ip.txt)
+#oldIp='12.21.12.12'
+dig +short myip.opendns.com @resolver1.opendns.com > newIp.txt
+newIp=$(<newIp.txt)
+echo "Subject: Ip is changed to $newIp " > newIp.txt
+#echo "oldIp: $oldIp"
+#echo "newIp: $newIp"
+
+if [ $oldIp != $newIp ]
+then
+  echo "ip is changed to $newIp"
+  #/usr/sbin/ssmtp zhaojy@asiainfo.com,andywang1908@sina.com < newIp.txt
+  /usr/sbin/ssmtp andywang1908@sina.com < newIp.txt
+  gxpass=yUqian12
+  gxuser=andywang1908
+  gxyum=1h625g2778.imwork.net
+  theurl="http://$gxuser:$gxpass@ddns.oray.com/ph/update?hostname=$gxyum&myip=$newIp"
+  curl "$theurl"
+  echo "update ip in $theurl"
+  dig +short myip.opendns.com @resolver1.opendns.com > ip.txt
+else
+  newIp='12.21.12.12'
+  echo "ip is not changed"
+fi
+
+---
+ref:
+http://unix.stackexchange.com/questions/22615/how-can-i-get-my-external-ip-address-in-a-shell-script
+
+sudo crontab -e
+*/2 * * * * . /etc/profile; /home/andy/ip/ip.sh
+#*/2 * * * * . $HOME/.profile; . /etc/profile; /home/andy/ip/ip.sh
+
 
 ### v2 slim
 
 #### no need remove andy
 
-#### delete big space , need change owner to administrators first
-
-1. C:\Windows\Help (66.7M) windows 7的說明檔，不看的話可以刪掉。
-2. C:\Windows\IME\IMEJP10 日文輸入法(37.8M)。
-2. C:\Windows\winsxs\Backup 
-2. remove usb dirver to another place????
-2. something in winsxs by packing KB2852386 , but there is no file in brand-new system
-https://support.appliedi.net/kb/a110/how-to-enable-the-disk-cleanup-tool-on-windows-server-2008-r2.aspx
-https://technet.microsoft.com/en-us/library/ff630161(WS.10).aspx
-
-[ref](http://save-coco.blogspot.ca/2010/05/windows-7.html)
-
-#### service
-
 ### try to green build
 
 #### java scala
 
-```
-setx JAVA_HOME "C:\green\dev\java\jdk\jdk1.8.0_101" /M
-setx M2_HOME "C:\green\dev\java\mvn\apache-maven-3.2.5" /M
-setx MAVEN_HOME "C:\green\dev\java\mvn\apache-maven-3.2.5" /M
-mvn –version
-java -version
+sudo apt-add-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
 
-SETX /M Path "C:\green\pro\7-Zip;%M2_HOME%\bin\;%JAVA_HOME%\bin\;%Path%;" //  /M means to set PATH value on machine level, but not working well for %%
-C:\green\pro\7-Zip;%JAVA_HOME%\bin\;%M2_HOME%\bin\;%NODE_HOME%\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;
-```
+update-java-alternatives --list
+sudo update-java-alternatives --set /path/to/java/version
+update-java-alternatives is a convenience tool that uses Debian's alternatives system (update-alternatives) to set a bunch of links to the specified java version (e.g. java, javac?????!!!!!!, ...).
 
-[ref](https://ss64.com/nt/setx.html)
-[ref](https://www.mkyong.com/maven/how-to-install-maven-in-windows/)
+this is good
+sudo update-alternatives --config java
 
 #### node
 
