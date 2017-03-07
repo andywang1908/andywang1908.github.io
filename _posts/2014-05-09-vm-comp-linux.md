@@ -26,8 +26,8 @@ change port to 5431
 
 or 
 
-export http_proxy=http://204.40.194.129:3128      not working 
-export https_proxy=$http_proxy            not working 
+export http_proxy=http://204.40.194.129:3128      not working , need sudo to set into global?
+export https_proxy=$http_proxy            not working , need sudo to set into global?
 sudo apt-get update
 sudo apt-get install wget
 sudo wget -qO- https://get.docker.com/ | sh
@@ -41,6 +41,11 @@ https_proxy=http://204.40.194.129:3128
 
 or via -e options placed after the URL:
 wget ... -e use_proxy=yes -e http_proxy=127.0.0.1:8080 ...
+
+vi ~/.curlrc
+proxy = http://204.40.194.129:3128
+
+proxy = http://username:password@proxy-host:port
 --
 
 ### v1.5 something missing
@@ -165,17 +170,24 @@ sudo update-alternatives --config java
 #### node
 
 ```
-## C:\Users\WangAn1\AppData\Roaming\npm is used for install program
-7z x "C:\green\dev\node\npm\node-v6.9.5-win-x64.zip" -y -aos -o"C:\green\dev\node\npm\v6.9.5"
-setx NODE_HOME "C:\green\dev\node\npm\v6.9.5" /M
+nvm is hard behind proxy , but is stonger
 
-SETX /M Path "%Path%;%NODE_HOME%\;"   -- not working well for NODE_HOME
+sudo apt-get install npm
+npm -v
 
 npm config set strict-ssl =false
 npm config set proxy "http://ebc%5Cwangan1:Ontario6%24@204.40.194.129:3128"
 npm config set https-proxy "https://ebc%5Cwangan1:Ontario6%24@204.40.194.129:3128"
 npm config set registry=http://registry.npmjs.org
+
+sudo npm install -g n
+sudo n stable  (may need curl proxy, or try sudo export)
+node -v
 ```
+
+[ref](http://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version)
+[nvm(nvmw) vs n ](http://www.mattpalmerlee.com/2013/03/23/installing-and-switching-between-multiple-versions-of-node-js-n-vs-nvm/)
+[nvm is better](http://taobaofed.org/blog/2015/11/17/nvm-or-n/)
 
 ##### multi version
 

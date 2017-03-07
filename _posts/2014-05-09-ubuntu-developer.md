@@ -183,7 +183,7 @@ http://proxy2.gonet.gov.on.ca:9001/proxy.pac         to  firefox
 
 sudo gedit /etc/apt/apt.conf
 sudo vi /etc/apt/apt.conf
-Acquire::http::Proxy "http://204.40.194.129:3128";
+#Acquire::http::Proxy "http://204.40.194.129:3128";
 Acquire::http::Proxy "http://ebc\wangan1:Ontario2$@204.40.194.129:3128";
 #Acquire::https::Proxy "http://204.40.194.129:3128";
 sudo apt-get update      !!!!!!!!!!!!!!!!!!
