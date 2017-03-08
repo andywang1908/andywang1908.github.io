@@ -50,6 +50,32 @@ proxy = http://username:password@proxy-host:port
 
 ### v1.5 something missing
 1. samba later?
+
+samba local service
+https://help.ubuntu.com/lts/serverguide/samba-fileserver.html
+https://www.apelearn.com/bbs/study/23.htm
+http://os.51cto.com/art/201101/243960.htm
+
+sudo apt-get update
+sudo apt install samba
+
+sudo pdbedit -a andy
+sudo pdbedit -L # 列出所有的账号   andy/andy123 or andy1234
+
+sudo smbpasswd -a <user>
+when prompted for a password use the same password you used with adduser. After this the smb password should be updated automatically when you change the linux password with sudo passwd <user>
+
+sudo vi /etc/samba/smb.conf
+[homes]
+        comment = Home Directories
+        browseable = yes
+        read only = no
+        create mask = 0700
+
+sudo service smbd restart
+sudo service smbd start
+
+
 2.
 privallage
 sudo groupadd docker
@@ -166,6 +192,10 @@ update-java-alternatives is a convenience tool that uses Debian's alternatives s
 
 this is good
 sudo update-alternatives --config java
+sudo update-alternatives --config javac
+
+sudo vi /etc/apt/sources.list   cd-rom
+sudo timedatectl set-timezone EST
 
 #### node
 
@@ -177,7 +207,7 @@ npm -v
 
 npm config set strict-ssl =false
 npm config set proxy "http://ebc%5Cwangan1:Ontario6%24@204.40.194.129:3128"
-npm config set https-proxy "https://ebc%5Cwangan1:Ontario6%24@204.40.194.129:3128"
+npm config set https-proxy "http://ebc%5Cwangan1:Ontario6%24@204.40.194.129:3128"
 npm config set registry=http://registry.npmjs.org
 
 sudo npm install -g n
