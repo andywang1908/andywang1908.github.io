@@ -62,8 +62,8 @@ sudo apt install samba
 sudo pdbedit -a andy
 sudo pdbedit -L # 列出所有的账号   andy/andy123 or andy1234
 
-sudo smbpasswd -a <user>
-when prompted for a password use the same password you used with adduser. After this the smb password should be updated automatically when you change the linux password with sudo passwd <user>
+sudo smbpasswd -a andy
+when prompted for a password use the same password you used with adduser. After this the smb password should be updated automatically when you change the linux password with sudo passwd andy<user>
 
 sudo vi /etc/samba/smb.conf
 [homes]
