@@ -62,6 +62,7 @@ sudo apt install samba
 sudo pdbedit -a andy
 sudo pdbedit -L # 列出所有的账号   andy/andy123 or andy1234
 
+sudo passwd andy
 sudo smbpasswd -a andy
 when prompted for a password use the same password you used with adduser. After this the smb password should be updated automatically when you change the linux password with sudo passwd andy<user>
 
@@ -212,7 +213,11 @@ npm config set registry=http://registry.npmjs.org
 
 sudo npm install -g n
 sudo n stable  (may need curl proxy, or try sudo export)
+sudo n 6.9.5
+sudo n 7.6.0
 node -v
+
+sudo npm install -g @angular/cli@1.0.0-beta.29
 ```
 
 [ref](http://askubuntu.com/questions/426750/how-can-i-update-my-nodejs-to-the-latest-version)
