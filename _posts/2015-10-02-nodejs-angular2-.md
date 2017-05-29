@@ -254,9 +254,9 @@ SHA-1是基于MD4算法的 https is using 非对称算法, normally only verify 
 
 ## security
 
-[RESTful架构风格下的4大常见安全问题](http://insights.thoughtworkers.org/security-issues-in-restful/)
-[拿nodejs快速搭建简单Oauth认证和restful API server攻略。](https://cnodejs.org/topic/516774906d38277306ff5647)
-[日志 - restful api 设计，认证和授权相关的问题 - SegmentFault](https://segmentfault.com/q/1010000003041387)
+- [RESTful架构风格下的4大常见安全问题](http://insights.thoughtworkers.org/security-issues-in-restful/)
+- [拿nodejs快速搭建简单Oauth认证和restful API server攻略。](https://cnodejs.org/topic/516774906d38277306ff5647)
+- [日志 - restful api 设计，认证和授权相关的问题 - SegmentFault](https://segmentfault.com/q/1010000003041387)
 
 ## debug
 
