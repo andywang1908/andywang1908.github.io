@@ -269,6 +269,6 @@ SHA-1是基于MD4算法的 https is using 非对称算法, normally only verify 
 
 ## SPA
 
-[ref](http://singlepageappbook.com/goal.html)
-[The disadvantages of single page applications --- try to conqure it](http://adamsilver.io/articles/the-disadvantages-of-single-page-applications/)
+- [ref](http://singlepageappbook.com/goal.html)
+- [The disadvantages of single page applications --- try to conqure it](http://adamsilver.io/articles/the-disadvantages-of-single-page-applications/)
 
