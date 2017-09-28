@@ -33,6 +33,50 @@ It will be a better way to install 8 first ,and install 7 , installation will ch
 In Eclipse IDE (Helios version), top menu, select “Help” –> “Install New Software…”. And puts http://subclipse.tigris.org/update_1.6.x in the “work with” textbox and click on the “Add” button. Select all components and install it.
 [Ref](http://www.mkyong.com/eclipse/how-to-enable-subversion-svn-in-eclipse-ide/)
 
+## install was
+
+it is better to intall secondly, so port will change to 9081 from 9080, so it will be avoid conflict.
+
+```
+http://192.168.10.129:9060/ibm/console
+https://192.168.10.129:9043/ibm/console
+
+https://192.168.10.130:9044/ibm/console
+https://10.160.200.76:9044/ibm/console
+
+
+http://192.168.10.130:9081
+
+sudo /opt/IBM/WebSphere/AppServer_1/bin/startServer.sh server1
+sudo /opt/IBM/WebSphere/AppServer_1/bin/stopServer.sh server1
+
+cd ~
+tar -czvf WebSphere8.tar.gz /opt/IBM/WebSphere8
+
+sudo fdisk -l
+
+/dev/sdb1            2048 450562047 450560000 214.9G  7 HPFS/NTFS/exFAT
+/dev/sdb2       450562048 976769023 526206976 250.9G  7 HPFS/NTFS/exFAT
+
+sudo mkdir /media/exfat
+sudo mount -t exfat /dev/sdb2 /media/exfat1
+sudo mkdir /media/ntfs-ext
+sudo mount -t ntfs /dev/sdb1 /media/ntfs-ext
+sudo umount /dev/sdb1 
+
+sudo mkdir /opt/IBM/WebSphere8
+sudo tar -xzvf WebSphere8.tar.gz -C /opt/IBM/WebSphere8
+sudo mv /opt/IBM/WebSphere8/opt/IBM/WebSphere8/AppServer /opt/IBM/WebSphere8
+
+
+sudo /opt/IBM/WebSphere8/AppServer/bin/startServer.sh server1
+
+
+sudo /opt/IBM/InstallationManager/eclipse/IBMIM
+
+TODO how to call profile management tool
+```
+
 ## usage
 
 ### how to create wsdl in RSA from service interface or impl
