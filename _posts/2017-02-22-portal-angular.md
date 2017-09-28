@@ -803,3 +803,140 @@ script --->  s2i-app ---> s2i-resouce
 
 
 
+
+http://10.160.200.6:10039/sodp/mypoc/s2i?uri=s2i:IACInfo(???)
+http://10.160.200.6:10039/sodp/mypoc/s2i?uri=s2i:IACCart
+
+
+    // http://10.160.200.138:10039/sodp/mypoc/s2i?uri=s2i:IACInfo(???)            landing page
+    // http://10.160.200.138:10039/sodp/mypoc/s2i?uri=s2i:MOHAC0000          iac form
+    // http://10.160.200.138:10039/sodp/mypoc/s2i?uri=s2i:IACCart            order summary
+http://10.160.200.138:10039/sodp/myportal/Administration
+
+
+
+S2iProductContextRenderingPlugin.java
+S2iRestUtils.instance().getProductJavascriptContext
+
+
+S2iRestUtils.java
+    public String getProductJavascriptContext(HttpServletRequest request) {
+      S2iSession s2iSession = S2iUtils.getS2iSession();; 
+    S2iProductFamilyConfig productFamilyConfig = S2iConfig.instance().getS2iProductFamilyConfig(s2iSession.getProductFamily());
+  
+    StringBuilder script = new StringBuilder("<script>")
+      .append("s2i_context.productInfoUrl = '" + S2iUtils.getProductInfoUrl(request, s2iSession.getProductFamily() , null) + "';");
+
+
+            <script>s2i_context.productInfoUrl = '/sodp/myportal/s2i?uri=s2i:IACInfo&lang=en';s2i_context.orderItemUpdate = false;s2i_context.showCart = true;s2i_context.pageTitle = 'iac.pageTitle';s2i_context.productInfo = '/s2i-resource-en/resource-bundles/iac/iac/productInfo';</script>
+<script>s2i_context.opInfo = {"productCode":null,"noOrderNowMsg":"","productMsg":"","productAvailable":true,"cartFull":false,"orderItemFull":false,"bypassProductInfo":false,"productUrl":null,"proceedUrl":null};console.log('s2i application context created:');</script>
+<htmlwrapper>
+
+
+S2iRestUtils
+    public String getServiceStatusScript(HttpServletRequest request, HttpServletResponse response) {
+      S2iRequest s2iRequest = S2iRequest.getS2iRequest();
+        String productCode = s2iRequest.getProductCode();
+        String s2iBackUrl = request.getParameter("s2iBackUrl");
+      MessageSource msgSource = (MessageSource) S2iConfig.instance().getBean("s2iCommonMessageSource"); //
+      S2iOperationalInfo opInfo = ShoppingCartUtils.collectOperationalInfo(
+          request, 
+          response, 
+          s2iBackUrl, 
+          productCode, 
+          msgSource);
+          
+      StringBuilder script = new StringBuilder("<script>")
+        .append("s2i_context.opInfo = " + ca.on.gov.s2i.rest.utils.JacksonJsonUtils.getJsonString(opInfo) + ";");
+
+
+S2iOperationInfo.jsp
+<%
+  out.write(ca.on.gov.s2i.rest.utils.S2iRestUtils.instance().getServiceStatusScript(request, response));
+%>
+
+
+addToOrder
+
+
+Libraries>s2i-apps>Content>     S2I Products>Integrated Address Change>Integrated Address Change>s2i-web-iac(???)
+
+<htmlwrapper>
+    <div><s2i-web-iac-root><div style="display:none">If you see this text. It means theme are not deployed properly, or Quotes application does not run well on this theme.</div></s2i-web-iac-root></div>
+      <script type="text/javascript" src="/sodp/wcm/myconnect/s2i/s2i-apps/resource-bundles/s2i-resources?SRV&#x3D;cmpnt&cmpntname&#x3D;s2i-resource.js&source&#x3D;content&subtype&#x3D;javascript&s2i-resource=/iac/iac/iac-resources"></script>
+      <script type="text/javascript" src="[Plugin:ScriptPortletElementURL element="s2i-web-iac.js"]"></script>      
+    
+</htmlwrapper>
+
+
+    Libraries>s2i-apps>Content>     Resource Bundles>S2I Resources     
+
+    /sodp/wcm/myconnect/s2i/s2i-apps/resource-bundles/s2i-resources
+
+    /sodp/wcm/myconnect/s2i/s2i-apps/s2i-products/iac/iac/s2i-web-iac
+    
+
+<htmlwrapper>
+    <div><s2i-web-iac-root><div style="display:none">If you see this text. It means theme are not deployed properly, or Quotes application does not run well on this theme.</div></s2i-web-iac-root></div>
+      <script type="text/javascript" src="/sodp/wcm/myconnect/s2i/s2i-apps/resource-bundles/s2i-resources?SRV&#x3D;cmpnt&cmpntname&#x3D;s2i-resource.js&source&#x3D;content&subtype&#x3D;javascript&s2i-resource=/iac/iac/iac-resources"></script>
+      <script type="text/javascript" src="[Plugin:ScriptPortletElementURL element="s2i-web-iac.js"]"></script>      
+    
+</htmlwrapper>
+    
+
+    
+    's2i-web-iac' : {
+      wcmSiteArea: 's2i-apps/s2i-products/iac/iac',
+      wcmContentName: 's2i-web-iac',
+      appName: 's2i-web-iac',
+      s2iResource: '/iac/iac/iac-resources'
+    },
+
+
+http://10.160.200.138:10039/sodp/portal/s2i
+s2i-apps/content/s2i-products       find html which can been previewed
+
+
+            if (StringUtils.isBlank(appContentPath)) {
+                appContentPath = "/iac/iac/iac-resources";  
+            }
+
+
+  <context-root uri="s2i-wcm-plugin" />
+
+
+
+
+
+    public String getMenuItemFragment(Workspace workspace, SiteArea sa, HttpServletRequest request) throws ComponentNotFoundException {
+      
+    Locale locale = S2iUtils.getLocale(request);
+    String title =  this.getText(sa, S2iUtils.isEnlish(locale) ? "display-title-en" : "display-title-fr");
+    String tooltip = this.getText(sa, S2iUtils.isEnlish(locale) ? "tooltip-en" : "  tooltip-fr");
+    
+    //String productCode = this.getText(sa, "product-code");
+    //String productFamily = this.getText(sa, "product-family");
+    //System.out.println(">>>>-- product code:" + productCode);
+    String s2iLinkName = this.getText(sa, "s2i-link", "IACInfo");
+    //String pageUniqueName = this.getText(sa, "page-unique-name", "ca.on.gov.s2i.page.product.info");
+    //String windowUniqueName = this.getText(sa, "portlet-window-unique-name", "ca.on.gov.s2i.window.product.info");
+    //String pageUniqueName = productConfig.getProperty("page.id", "ca.on.gov.s2i.page.product.info");
+    //writer.write(String.format("<a href=\"?uri=nm:oid:%s&pg=%s&pc=%s\" title=\"%1s\" tabindex=\"-1\">%s</a>", 
+    return String.format("<a href=\"" + S2iUtils.getVirtualPortalUrl(request.isSecure()) + "?uri=s2i:%s\" title=\"%s\" tabindex=\"-1\">%s</a>",
+      s2iLinkName,
+      //productFamily, 
+      //productCode,           
+        tooltip, 
+        title);
+    }
+
+
+ (java.lang.String) <a href="/sodp/portal/s2i?uri=s2i:IACInfo" title="Drivers and Vehicles Services" tabindex="-1">Drivers and Vehicles Services</a>
+
+  (java.lang.String) <a href="/sodp/portal/s2i?uri=s2i:IACInfo" title="Online Driver License Renewal" tabindex="-1">Online Driver License Renewal</a>
+
+ (java.lang.String) <a href="/sodp/portal/s2i?uri=s2i:IACInfo" title="Driver Abstract" tabindex="-1">Driver Abstract</a>
+
+
+
+
