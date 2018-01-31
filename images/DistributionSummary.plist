@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Dragonfruit.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>A692CBE54F3EFA2F67332E83056873431373AE9C</string>
+				<key>dateExpires</key>
+				<string>2019-01-29</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A692CBE54F3EFA2F67332E83056873431373AE9C</string>
+						<key>dateExpires</key>
+						<string>2019-01-29</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>GoogleToolboxForMac.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>KHPHSV9UVD</string>
+						<key>name</key>
+						<string>Lifeng Wang</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A692CBE54F3EFA2F67332E83056873431373AE9C</string>
+						<key>dateExpires</key>
+						<string>2019-01-29</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Protobuf.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>KHPHSV9UVD</string>
+						<key>name</key>
+						<string>Lifeng Wang</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>KHPHSV9UVD.ca.on.gsic.wallet</string>
+				<key>aps-environment</key>
+				<string>production</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>KHPHSV9UVD</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>Dragonfruit.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>e82987c0-d914-421f-94de-97b168e86935</string>
+				<key>name</key>
+				<string>wallet init adhoc</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>KHPHSV9UVD</string>
+				<key>name</key>
+				<string>Lifeng Wang</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
